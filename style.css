@@ -106,21 +106,22 @@ body{
 #projects #img{
     margin-bottom: 20px;
 }
-#projects #img p{
+#projects #img h1{
     font-weight: 900;
     padding-top: 10px;
     font-size: 20px;
 }
-#projects #image a{
-    font-weight: 900;
+#projects #img p a{
+    margin-left: 185px;
     padding-top: 10px;
     font-size: 20px;
     text-decoration: none;
     color: #7dc9c5;
 }
-#projects #image a:hover{
-    font-weight: 900;
-    font-size: 24px;
+#projects #img p a:hover{
+    font-weight: 200;
+    font-size: 22px;
+    padding: 10px 10px;
     text-decoration: none;
     color: #4b7876;
     border: 2px solid #4b7876;
