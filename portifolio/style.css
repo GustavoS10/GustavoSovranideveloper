@@ -1,0 +1,194 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    background: #252525;
+    color: #FFF;
+    text-decoration: none;
+}
+.primary-bg-color{
+    background: #252525;
+}
+.secondary-bg-color{
+    background: #dcdedd;
+}
+.tertiary-bg-color{
+    background: #74483f ;
+}
+.light-bg-color{
+    background: #FCF5EB;
+}
+.dark-bg-color{
+    background: #101010;
+}
+.primary-color{
+    color: #7dc9c5;
+}
+.secondary-color{
+    color: #626262;
+}
+.tertiary-color{
+    color: #76473f;
+}
+.light-color{
+    color: #eef1f6;
+}
+
+/* NAV BAR */
+#bottom-navbar-container .container{
+    justify-content: flex-end;
+}
+#bottom-navbar-container a{
+    font-weight: 600;
+    color: #7dc9c5;
+}
+#bottom-navbar-container #name{
+    text-align: center;
+    color: #7dc9c5;
+    font-weight: 700;
+    font-size: 20px;
+}
+#bottom-navbar-container button:focus{
+    text-decoration: none;
+    box-shadow: none;
+}
+.navbar-toggler{
+    font-size: 1.5em;
+}
+
+/* BANNERS e SLIDER */
+#banners-container{
+    padding: 0;
+}
+.carousel-inner{
+    border-radius: 100px 0 100px 0;
+    margin-top: 55px;
+}
+.carousel-caption{
+    bottom: 2.8em;
+    padding: 1em;
+    left: 10%;
+    right: 10%;
+}
+.carousel-caption h1{
+    font-size: 1em;
+}
+
+/* ABOUT ME */
+ #aboutme{
+    margin-top: 100px;
+    padding-bottom: 80px;
+}
+#aboutme h1{
+    text-align: center;
+    border-bottom: 2px solid #452b25;
+}
+#aboutme #me{
+    padding-top: 20px;
+    margin-bottom: 55px;
+}
+#aboutme #newbanner{
+    text-align: center;
+}
+/*
+#aboutme #me{
+     text-align: center;
+    padding-top: 55px;
+    font-weight: 900;
+    font-size: 50px; 
+    font-size: 500;
+    width: 30%;
+}
+#aboutme .row{
+    text-align: end;
+} */
+
+/* titulo about me */ 
+/* #newbanner{
+    margin-left: 30%;
+    margin-top: 20px
+} */
+
+
+/* PROJECTS */
+#projects{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#projects h1{
+    font-weight: 700;
+    text-align: start;
+    margin-bottom: 80px;
+    color: #7dc9c5;
+}
+#projects #img{
+    margin-bottom: 20px;
+}
+#projects #img p{
+    font-weight: 900;
+    padding-top: 10px;
+    font-size: 20px;
+}
+#projects #titulo{
+    font-weight: 500;
+    text-align: center;
+}
+/* FOOTER */
+#medias{
+    text-align: center;
+}
+#medias .footer-column h2{
+    color: #7dc9c5;
+    font-weight: 900;
+    margin-top: 55px;
+}
+#medias .list-unstyled{
+    text-decoration: none;
+    color: #74483f;
+    padding-top: 55px;
+}
+#medias .list-unstyled i{
+    font-size: 30px;
+    transition: .5s;
+}
+#medias #info a{
+    text-decoration: none;
+    color: #74483f;
+}
+#medias #tel{
+    font-weight: 900;
+    font-size: 30px;
+}
+#medias #info{
+    font-weight: 900;
+    font-size: 20px;
+    transition: .5s;
+}
+#medias #info a:hover,
+#medias .list-unstyled i:hover{
+    color: #452b25;
+    background: none;
+    border: 1px solid #452b25;
+    border-radius: 10px;
+    padding: 5px 5px;
+}
+/* COPY */
+#copy{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    font-weight: bold;
+}
+#copy span{
+    color: #7dc9c5;
+}
+
+/* MEDIA QUERYS */
+@media (min-width: 400px) and (min-width: 469px) {
+    #aboutme #me{ 
+        width: 100%;
+        font-weight: 900;
+    }
+    
+}
