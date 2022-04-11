@@ -91,25 +91,6 @@ body{
 #aboutme #newbanner{
     text-align: center;
 }
-/*
-#aboutme #me{
-     text-align: center;
-    padding-top: 55px;
-    font-weight: 900;
-    font-size: 50px; 
-    font-size: 500;
-    width: 30%;
-}
-#aboutme .row{
-    text-align: end;
-} */
-
-/* titulo about me */ 
-/* #newbanner{
-    margin-left: 30%;
-    margin-top: 20px
-} */
-
 
 /* PROJECTS */
 #projects{
@@ -129,6 +110,21 @@ body{
     font-weight: 900;
     padding-top: 10px;
     font-size: 20px;
+}
+#projects #image a{
+    font-weight: 900;
+    padding-top: 10px;
+    font-size: 20px;
+    text-decoration: none;
+    color: #7dc9c5;
+}
+#projects #image a:hover{
+    font-weight: 900;
+    font-size: 24px;
+    text-decoration: none;
+    color: #4b7876;
+    border: 2px solid #4b7876;
+    border-radius: 10px;
 }
 #projects #titulo{
     font-weight: 500;
